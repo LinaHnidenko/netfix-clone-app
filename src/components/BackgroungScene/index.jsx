@@ -74,7 +74,7 @@ export const BackgroungScene = () => {
   return (
     <Canvas
       camera={{ position: [0, 0, 6], fov: 70 }}
-      style={{ width: "100vw", height: "100vh" }}
+      className="w-screen h-screen !absolute top-0"
     >
       <ambientLight intensity={0.5} />
       <Stars />
