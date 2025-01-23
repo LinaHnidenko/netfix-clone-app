@@ -38,7 +38,7 @@ export const PopularSwiperList = () => {
   };
 
   return (
-    <div className="relative max-w-[55%] pb-12">
+    <div className="relative max-w-[55%] pb-12 animate-fade-in-bottom">
       <h2 className="container text-white text-2xl font-extrabold pb-8">
         POPULAR THIS WEEK
       </h2>

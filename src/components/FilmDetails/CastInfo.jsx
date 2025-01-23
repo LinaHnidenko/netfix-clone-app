@@ -9,7 +9,7 @@ export const CastInfo = () => {
     { id: 3, title: "seasons:", subtitle: "3 (5 Episodes)" },
   ];
   return (
-    <div className="flex flex-col lg:flex-row lg:items-center gap-5">
+    <div className="flex flex-col lg:flex-row lg:items-center gap-5 animate-fade-in">
       {info.map(({ id, title, subtitle }, idx) => (
         <React.Fragment key={id}>
           <div className="flex items-center gap-1 text-3xl">

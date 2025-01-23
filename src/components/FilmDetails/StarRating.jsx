@@ -5,7 +5,7 @@ import starOutlinedIcon from "@/assets/icons/star-outlined.svg";
 const ICON_ALT_TEXT = "star icon";
 
 export const StarRating = ({ rating = 3, maxRating = 5 }) => (
-  <div className="flex items-center gap-1">
+  <div className="flex items-center gap-1 animate-fade-in-slower">
     {Array.from({ length: maxRating }, (_, index) =>
       index < rating ? (
         <img

@@ -9,7 +9,7 @@ export const Categories = () => {
   ];
 
   return (
-    <ul className="flex flex-col lg:flex-row lg:items-center gap-5">
+    <ul className="flex flex-col lg:flex-row lg:items-center gap-5 animate-fade-in-fast">
       {categories.map(({ id, title }, idx) => (
         <React.Fragment key={id}>
           <li className="text-white font-medium text-32">{title}</li>
