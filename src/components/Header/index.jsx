@@ -9,7 +9,7 @@ const DATE = "Friday July 8th";
 export const Header = () => (
   <header className="container flex flex-col lg:flex-row lg:items-center justify-between pt-17.5">
     <div className="flex items-center gap-3">
-      <img src={logo} alt="netflix logo" width={156} height={48} />
+      <img src={logo} alt="netflix logo image" width={156} height={48} />
       <div className={DEFAULT_DEVIVER_CLASSNAME} />
 
       <div className="text-medium text-gray-base">{DATE}</div>
